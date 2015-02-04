@@ -14,6 +14,7 @@
 /**#@+
 * @ignore
 */
+echo 'aaaaaaaaaaa'
 define('IN_PHPBB', true);
 define('IN_INSTALL', true);
 /**#@-*/
@@ -657,8 +658,6 @@ class module
 		echo '	<div id="page-footer">';
 		echo '		Powered by <a href="https://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Limited';
 		echo '	</div>';
-		echo 'base ' . $_ENV['OPENSHIFT_DB_HOST']
-		echo 'puerto ' . $_ENV['OPENSHIFT_DB_PORT']
 		echo '</div>';
 		echo '</body>';
 		echo '</html>';
