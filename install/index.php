@@ -14,7 +14,6 @@
 /**#@+
 * @ignore
 */
-echo 'aaaaaaaaaaa'
 define('IN_PHPBB', true);
 define('IN_INSTALL', true);
 /**#@-*/

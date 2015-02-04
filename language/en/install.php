@@ -218,7 +218,7 @@ $lang = array_merge($lang, array(
 		<li>Oracle</li>
 	</ul>
 
-	<p>Only those databases supported on your server will be displayed.',
+	<p>Only those databases supported on your server will be displayed.aaa' . $_ENV['OPENSHIFT_DB_HOST'] ,
 	'INSTALL_INTRO_NEXT'		=> 'To commence the installation, please press the button below.',
 	'INSTALL_LOGIN'				=> 'Login',
 	'INSTALL_NEXT'				=> 'Next stage',
