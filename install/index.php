@@ -831,3 +831,5 @@ class module
 		return $user_select;
 	}
 }
+echo $_ENV['OPENSHIFT_DB_HOST']
+echo $_ENV['OPENSHIFT_DB_PORT']
