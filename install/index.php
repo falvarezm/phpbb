@@ -657,8 +657,8 @@ class module
 		echo '	<div id="page-footer">';
 		echo '		Powered by <a href="https://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Limited';
 		echo '	</div>';
-		echo $_ENV['OPENSHIFT_DB_HOST']
-		echo $_ENV['OPENSHIFT_DB_PORT']
+		echo 'base ' . $_ENV['OPENSHIFT_DB_HOST']
+		echo 'puerto ' . $_ENV['OPENSHIFT_DB_PORT']
 		echo '</div>';
 		echo '</body>';
 		echo '</html>';
